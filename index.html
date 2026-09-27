@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#252525">
+  <title>Syed Adan Abbas — Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" aria-label="Primary navigation">
+    <a class="brand" href="#home">Syed Adan Abbas</a>
+    <div class="nav-wrap">
+      <div class="nav-links">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-syed-side">
+        <span class="hero-role">FRONTEND DEVELOPER</span>
+        <div class="hero-name hero-syed" aria-label="Syed">
+          <span>S</span><span>y</span><span>e</span><span>d</span>
+        </div>
+        <span class="name-line"></span>
+      </div>
+
+      <img src="pfp.png" class="hero-photo" alt="Syed Adan Abbas">
+
+      <div class="hero-name hero-adan" aria-label="Adan">
+        <span>A</span><span>d</span><span>a</span><span>n</span>
+      </div>
+
+      <div class="hero-description">
+        <span>BUILDING CLEAN</span>
+        <span>AND MODERN WEB</span>
+        <span>EXPERIENCES</span>
+      </div>
+
+      <button class="scroll-down" data-scroll="#about" type="button">
+        <span class="mouse"><i></i></span><span>Scroll Down</span><b></b>
+      </button>
+
+      <div class="hero-pagination" aria-label="Section navigation">
+        <button class="page-dot active" data-scroll="#home" aria-label="Home"></button>
+        <button class="page-dot" data-scroll="#about" aria-label="About"></button>
+        <button class="page-dot" data-scroll="#skills" aria-label="Skills"></button>
+      </div>
+    </section>
+
+    <section class="placeholder-section" id="about"><span>ABOUT</span></section>
+    <section class="placeholder-section" id="skills"><span>SKILLS</span></section>
+    <section class="placeholder-section" id="service"><span>SERVICE</span></section>
+    <section class="placeholder-section" id="contact"><span>CONTACT</span></section>
+  </main>
+
+  <button class="theme-toggle" type="button" aria-label="Switch theme">
+    <span class="theme-icon">☾</span><span class="theme-label">Dark</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
